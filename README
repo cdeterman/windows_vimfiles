@@ -1,5 +1,9 @@
 Installation:
-	git clone git://github.com/cdeterman/vimfiles.git ~/.vim
+	git clone git://github.com/cdeterman/vimfiles.git vimfiles
 
+	
+Update submodules
+	cd vimfiles && git submodule update
+	
 Create Symbolic link
-	ln -s ~/.vim/vimrc ~/.vimrc
+	ln -s ~/.vim/vimrc _vimrc
